@@ -1,6 +1,5 @@
 body {
-  font-family: open-sans, sans-serif;
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size:1em;
   color:#444444;
   font-weight:400;
@@ -44,4 +43,8 @@ h5 {
 
 li {
   font-size:1em;
+}
+
+img {
+
 }
