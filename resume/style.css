@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size:1em;
-  color:#444444;
+  color:#444;
   font-weight:400;
 }
 
@@ -12,7 +12,11 @@ h1 {
   text-align: center;
 }
 
-strong {
+img {
+  display: none;
+}
+
+b {
   text-transform: uppercase;
   font-size:1.5em;
   color:#33485e;
@@ -20,8 +24,9 @@ strong {
 
 h2 {
   font-size:1.5em;
+  text-transform: uppercase;
   background-color:#33485e;
-  color:#ffffff;
+  color:white;
   font-weight:400;
 }
 
@@ -43,8 +48,4 @@ h5 {
 
 li {
   font-size:1em;
-}
-
-img {
-
 }
