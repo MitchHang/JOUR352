@@ -3,15 +3,15 @@
 /*Body Font*/
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size:1em;
-  color:#444;
-  font-weight:400;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
 }
 
 /*Name*/
 #name {
-  font-size:3em;
-  color:#33485e;
+  font-size: 3em;
+  color: #33485e;
   text-transform: uppercase;
   text-align: center;
   border-bottom: 1px solid #33485e;
@@ -26,44 +26,80 @@ img {
 }
 
 /*Title*/
-b {
+#title {
   text-transform: uppercase;
-  font-size:1.5em;
-  color:#33485e;
+  font-size: 1.5em;
+  color: #33485e;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0 0;
 }
 
 /*Section Titles*/
 .sectionheader {
-  font-size:1.5em;
+  font-size: 1.5em;
   text-transform: uppercase;
-  background-color:#33485e;
-  color:white;
-  font-weight:400;
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
   margin: 20px 0 10px 0;
-  width: 70%
+  width: 70%;
   min-width: 300px;
 }
 
 /*Job Titles*/
-h3 {
-  font-size:1.5em;
-  font-weight:600;
+.jobtitle {
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 /*Job Organizations*/
-h4 {
-  font-size:1.5em;
-  font-weight:400;
+.organization {
+  font-size: 1.25em;
+  font-weight: 400;
 }
 
 /*Job Dates*/
-h5 {
-  font-size:1em;
-  font-weight:400;
+.date {
+  font-size: 1em;
+  font-weight: 400;
   font-style: italic;
+  margin-top: 2px;
 }
 
 /*List Items*/
 ul li {
-  font-size:1em;
+  font-size: 1em;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+
+#degrees {
+  margin: 5px 0 0 0;
+}
+
+#do {
+  margin: 5px 0 0 0;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
