@@ -1,0 +1,47 @@
+#masthead {
+  text-align: center;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 1.5em;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  text-align: center;
+}
+
+.images figcaption {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.graphic {
+  width: 900px;
+  text-align: center;
+}
+
+.graphic figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
