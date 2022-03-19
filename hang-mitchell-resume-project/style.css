@@ -73,12 +73,8 @@ body {
 }
 
 /*List Items*/
-.tasks {
+.tasks-degrees {
   margin: 0 15px;
-}
-
-.degrees {
-  margin: 0px 15px;
 }
 
 .do-facts {
