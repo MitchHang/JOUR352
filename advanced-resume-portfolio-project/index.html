@@ -2,9 +2,209 @@
 <html lang="en">
 
 <head>
+  <!-- Meta tags, shrink to fit? -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is an advanced porfolio webpage written by and belonging to Mitchell Hang.">
+  <meta name="author" content="Mitchell Hang">
+
+  <title>Mitchell Hang - Advanced Webpage</title>
+
+  <!-- Bootstrap CSS and JavaScript -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/font-awesome.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
   </head>
 
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mitchell Hang - Advanced Webpage</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="#digitization">Digitiziation</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#facts">Facts</a>
+          <a class="nav-link" href="secondpage.html">Clips</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Topper -->
+  <div id="topper">
+    <img src="mitchell-hang.jpg" width="200px" alt="Picture of Mitchell Hang" align="center" id="profile">
+    <div id="name">Mitchell Hang</div>
+    <div id="tagline"><u>Amateur archivist at work.</u></div>
+  </div>
+
+  <!-- Paragraph -->
+  <div id="description">Mitchell Hang is an amateur archivist who enjoys working with old media formats. As a child, Mitchell grew to love watching television and playing with the features on his family's video cassette recorder. Now, he specializes in converting VHS videotapes to digital formats, in addition to other interests related to broadcasting. He is currently enrolled as a journalism major at the University of Maryland in College Park. He describes himself as "a team-centered individual" who is highly self-motivated, a quick learner, and can adapt to enjoy working in any welcoming environment, in addition to other interests related to media and broadcasting. He is currently working on designing webpages using GitHub Desktop, Bootsrap and Atom as part of an interactive design and development class at the University of Maryland. Eager to learn at every available opportunity, Mitchell Hang is able to collaborate with other team members on projects, plan ahead of time, and treat everybody with kindness.</div>
+
+  <!-- Containers -->
+  <div class="container">
+
+    <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box">
+            <div class="sectionheader"><a name="digitization">&nbsp; Digitization</a></div>
+              <div id="videos">
+                <iframe width="280" height="210" src="https://www.youtube.com/embed/mjog0eaKmJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="280" height="210" src="https://www.youtube.com/embed/WWoUvHh2hH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="280" height="210" src="https://www.youtube.com/embed/zTJBIODO-vY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <br>
+
+                <iframe width="280" height="210" src="https://www.youtube.com/embed/OszebaPcba0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="280" height="210" src="https://www.youtube.com/embed/4OJCy8mQPac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="280" height="210" src="https://www.youtube.com/embed/tyZ5NR7sdWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="box">
+            <div class="sectionheader"><a name="experience">&nbsp; Experience</a></div>
+            <div class="jobtitle-heading">Disc Jockey</div>
+            <div class="organization">WMUC Radio</div>
+            <div class="date">Spring 2020 - Present</div>
+            <ul class="tasks">
+              <li>Hosted a radio show dedicated to playing Japanese city pop music</li>
+              <li>Logged playlists for each show that was broadcast while also managing equipment in the studio</li>
+              <li>Volunteered for several events as a disc jockey</li>
+            </ul>
+
+            <div class="jobtitle-heading">News Writer</div>
+            <div class="organization">Stories Beneath the Shell & The MoCo Show</div>
+            <div class="date">Fall 2021</div>
+            <ul class="tasks">
+              <li>Attended meetings to pitch ideas for stories and wrote articles to be turned in as clips for JOUR320</li>
+              <li>Contacted people involved in the stories for interviewing</li>
+              <li>Attended events to take photographs as supplements for the articles</li>
+            </ul>
+
+            <div class="jobtitle-heading">Anchorman</div>
+            <div class="organization">JAG-TV</div>
+            <div class="date">Circa 2018 - May 2019</div>
+            <ul class="tasks">
+              <li>Appeared on camera for the high school's morning announcements show</li>
+              <li>Regularly attended meetings to work out production schedules</li>
+              <li>Did occasional behind-the-scenes work, including working the soundboard and editing intros</li>
+            </ul>
+
+            <div class="jobtitle-heading">Tutor</div>
+            <div class="organization">George B. Thomas. Sr. Learning Academy, Inc.</div>
+            <div class="date">Circa 2018 - 2019</div>
+            <ul class="tasks">
+              <li>Helped younger kids (i.e., elementary school) with assignments</li>
+              <li>Regularly logged tutoring hours to earn credit for graduation</li>
+            </ul>
+
+            <div class="jobtitle-heading">National Honors Society</div>
+            <div class="organization">Northwest High School/Montgomery County Public Schools</div>
+            <div class="date">Circa 2017 - 2019</div>
+            <ul class="tasks">
+              <li>Performed extracurricular volunteer work in exchange for Student Service Learning (SSL) hours</li>
+              <li>Maintained good academic standing to receive certification (Honor Roll)</li>
+              <br>
+            </ul>
+
+          </div>
+        </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <div class="sectionheader"><a name="education">&nbsp; Education</a></div>
+            <div class="jobtitle-heading">High School Diploma</div>
+            <ul class="degrees">
+              <li>Northwest High School at Germantown, MD</li>
+              <li>Started August 2016, completed May 2019, graduated June 2019</li>
+              <li>Overall result (GPA): 3.91</li>
+            </ul>
+            <div class="jobtitle-heading">Undergraduate</div>
+            <ul class="degrees">
+              <li>Philip Merrill College of Journalism at University of Maryland, College Park</li>
+              <li>Started August 2019, expected graduation date: 2023/2024</li>
+            </ul>
+            <br>
+          </div>
+
+        <div class="box">
+          <div class="sectionheader"><a name="skills">&nbsp; Skills</a></div>
+            <ul class="do-facts">
+              <li>Video Editing (Adobe Premiere Pro, VEGAS Pro, DaVinci Resolve)</li>
+              <li>Photo Editing (Adobe Photoshop)</li>
+              <li>Photography (digital and analog)</li>
+              <li>Videography (DSLR, broadcast camera)</li>
+              <li>Coding/Programming</li>
+              <li>Upconverting of Older Audiovisual Formats (e.g. VHS, audiocassettes)</li>
+              <li>Playing the Piano</li>
+              <li>Working Collaboratively</li>
+              <li>Planning Ahead of Time</li>
+              <li>Kindness/Generosity</li>
+            </ul>
+            <br>
+          </div>
+
+        <div class="box">
+          <div class="sectionheader"><a name="facts">&nbsp; Facts</a></div>
+            <ul class="do-facts">
+              <li>He was diagnosed with having Asperger syndrome.</li>
+              <li>He has been playing the piano since 2010, appearing in recitals and charity events.</li>
+              <li>A digital art piece he made in high school was displayed at BWI Airport.</li>
+              <li>A meme he made using VHS tapes was featured in a museum in New York.</li>
+            </ul>
+            <br>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <hr>
+  <footer>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="mailto:mitchell.nguyen.hang@gmail.com" class="nav-link px-2 text-muted">Email</a></li>
+      <li class="nav-item"><a href="https://twitter.com/mitchell_n_hang" class="nav-link px-2 text-muted">Twitter</a></li>
+      <li class="nav-item"><a href="https://www.instagram.com/mitch.hang/" class="nav-link px-2 text-muted">Instagram</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/mitchell-hang-85bba5140/" class="nav-link px-2 text-muted">LinkedIn</a></li>
+      <li class="nav-item"><a href="https://www.youtube.com/channel/UC404ZwG2jfXsMxM23z6UEdQ" class="nav-link px-2 text-muted">YouTube</a></li>
+      <li class="nav-item"><a href="resume.pdf" class="nav-link px-2 text-muted">.pdf</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2022 Mitchell Hang</p>
+  </footer>
+  </div>
+
+
+
   </body>
 
 </html>

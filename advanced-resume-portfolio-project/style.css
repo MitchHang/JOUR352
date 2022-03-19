@@ -1,1 +1,117 @@
+body {
+  font-family: 'Fredoka', Helvetica, sans-serif;
+  font-size: 1em;
+  color: #1b368a;
+  font-weight: 400;
+  background-color: #ecffe3;
+}
 
+#topper {
+  background-color: #00af38;
+  text-align: center;
+  margin: 0 auto;
+  padding: 85px 0 30px 0;
+  color: white;
+}
+
+#profile {
+  border-radius: 50%;
+  outline: 5px solid white;
+}
+
+#name {
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+#tagline {
+  font-size: 2em;
+  line-height: 20px;
+}
+
+#description {
+  width: 80%;
+  min-width: 450px;
+  margin: 25px auto;
+}
+
+/*Section Titles*/
+.sectionheader {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #00af38;
+  color: white;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+  width: 40%;
+  min-width: 160px;
+  border-radius: 10px 0;
+}
+
+/*Job Titles*/
+.jobtitle-heading {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+/*Job Organizations*/
+.organization {
+  font-size: 1.25em;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+/*Job Dates*/
+.date {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+
+/*List Items*/
+.tasks {
+  margin: 0 15px;
+}
+
+.degrees {
+  margin: 0px 15px;
+}
+
+.do-facts {
+  margin: 5px 15px 0 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: white;
+  outline: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#videos {
+  text-align: center;
+}
+
+.article {
+  margin: 0 15px;
+}
+
+.images {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.images figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
