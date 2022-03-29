@@ -1,0 +1,39 @@
+/* This is where the main section of information is found */
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* Masthead */
+#masthead {
+  position: relative;
+  font-family: Georgia, Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+}
+
+/* Text for masthead */
+#centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 24px;
+  font-style: italic;
+}
+
+h2 {
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
