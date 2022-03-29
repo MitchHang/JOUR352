@@ -57,11 +57,12 @@ p {
   font-size: 12px;
 }
 
+/* Pictures */
 .images {
   text-align: center;
 }
 
-/* Captions for images */
+/* Captions for pictures */
 .images figcaption {
   font-size: 10px;
 }
