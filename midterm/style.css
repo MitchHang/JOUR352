@@ -1,7 +1,15 @@
+/* Different background color */
+body {
+  background-color: #D3D3D3;
+}
+
 /* This is where the main section of information is found */
 #content {
   margin: 0 auto;
   width: 900px;
+  background-color: white;
+  outline: 3px solid black;
+  padding: 10px;
 }
 
 /* Masthead */
@@ -15,25 +23,55 @@
 
 /* Text for masthead */
 #centered-text {
+  background-color: #FF3632;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/* Goes below h1 heading */
+#byline {
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* Heading */
 h1 {
   font-family: Georgia, Arial, sans-serif;
   font-size: 24px;
   font-style: italic;
 }
 
+/* Subheadings */
 h2 {
   font-family: Georgia, Arial, sans-serif;
   font-size: 18px;
   font-style: italic;
 }
 
+/* Body text */
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+}
+
+.images {
+  text-align: center;
+}
+
+/* Captions for images */
+.images figcaption {
+  font-size: 10px;
+}
+
+/* Quote by Rapinoe */
+blockquote {
+  font-family: Georgia, Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  background-color: #FF3632;
 }
