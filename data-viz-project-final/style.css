@@ -1,0 +1,72 @@
+/*Body Font*/
+body {
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #444;
+  font-weight: 400;
+}
+
+/*Section Titles*/
+.sectionheader {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #002d69;
+  color: white;
+  margin: 20px 0 10px 0;
+  width: 100%;
+  min-width: 300px;
+}
+
+/*List Items*/
+ul li {
+  font-size: 1em;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/* Pictures */
+.images {
+  text-align: center;
+}
+
+/* Captions for pictures */
+.images figcaption {
+  font-size: 12px;
+  text-align: left;
+}
+
+#album figcaption {
+  font-size: 12px;
+  text-align: left;
+}
